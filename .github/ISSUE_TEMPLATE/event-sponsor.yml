@@ -1,7 +1,7 @@
 name: Event Sponsor Proposal
-description: Submit this form if your company is interested in providing a venue and drinks for a future BarcelonaJS meetup.
+description: Submit this form if your company is interested in providing a venue and drinks for a future PHP Barcelona meetup.
 projects: 
-  - BarcelonaJS/2
+  - PHPBarcelona/2
 body:
   - type: markdown
     attributes:
@@ -47,7 +47,7 @@ body:
     id: sponsor-speaker
     attributes:
       label: Sponsor Speaker
-      description: "Will the sponsor provide a speaker for the event? If yes, please submit a speaker proposal using this link: [Submit Speaker Proposal](https://github.com/BarcelonaJS/talks/issues/new?assignees=&labels=Pending%3A+ready+for+review&projects=BarcelonaJS%2F2&template=new-talk.yml)"
+      description: "Will the sponsor provide a speaker for the event? If yes, please submit a speaker proposal using this link: [Submit Speaker Proposal](https://github.com/PHP-Barcelona/Events/issues/new?assignees=&labels=Pending%3A+ready+for+review&projects=Events%2F2&template=new-talk.yml)"
       options:
         - label: Yes, we will provide a speaker
     validations:

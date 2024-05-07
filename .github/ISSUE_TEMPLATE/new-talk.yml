@@ -1,7 +1,7 @@
 name: Talk Proposal
-description: Submit the topic you would like to present at a BarcelonaJS meetup
+description: Submit the topic you would like to present at a PHP Barcelona meetup
 projects: 
-  - BarcelonaJS/2
+  - PHPBarcelona/2
 labels:
   - "Pending: ready for review"
 body:
