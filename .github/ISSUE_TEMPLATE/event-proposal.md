@@ -1,18 +1,10 @@
 ---
 name: Event proposal
 about: 'Create an event proposal '
-title: ''
-labels: ''
-assignees: ''
-
----
-
----
-name: Event proposal
-about: Create an event proposal
 title: 'Event: <month> <year>'
 labels: 'Event :sparkles:'
 assignees: ''
+
 ---
 
 ### Details
