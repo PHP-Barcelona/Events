@@ -1,0 +1,120 @@
+name: Event Sponsor Proposal
+description: Submit this form if your company is interested in providing a venue and drinks for a future BarcelonaJS meetup.
+projects: 
+  - BarcelonaJS/2
+body:
+  - type: markdown
+    attributes:
+      value: "## Sponsor Details\nPlease use the issue title to specify your company name."
+
+  - type: textarea
+    id: sponsor-description
+    attributes:
+      label: Sponsor Description
+      description: A brief description of your company. This will be used for the event description.
+      placeholder: Enter a description of your company
+    validations:
+      required: true
+
+  - type: input
+    id: sponsor-website
+    attributes:
+      label: Sponsor Company Website
+      description: Your company's website URL.
+      placeholder: Enter your company's website
+    validations:
+      required: true
+
+  - type: input
+    id: sponsor-linkedin
+    attributes:
+      label: Sponsor Company LinkedIn
+      description: Your company's LinkedIn profile URL.
+      placeholder: Enter your company's LinkedIn URL
+    validations:
+      required: true
+
+  - type: input
+    id: sponsor-twitter
+    attributes:
+      label: Sponsor Company Twitter
+      description: Your company's Twitter handle.
+      placeholder: Enter your company's Twitter handle
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: sponsor-speaker
+    attributes:
+      label: Sponsor Speaker
+      description: "Will the sponsor provide a speaker for the event? If yes, please submit a speaker proposal using this link: [Submit Speaker Proposal](https://github.com/BarcelonaJS/talks/issues/new?assignees=&labels=Pending%3A+ready+for+review&projects=BarcelonaJS%2F2&template=new-talk.yml)"
+      options:
+        - label: Yes, we will provide a speaker
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "## Venue Details"
+
+  - type: input
+    id: venue-name
+    attributes:
+      label: Venue Name
+      description: The name of the venue.
+      placeholder: Enter the name of the venue
+    validations:
+      required: true
+
+  - type: input
+    id: venue-address
+    attributes:
+      label: Venue Address
+      description: The address of the venue.
+      placeholder: Enter the address of the venue
+    validations:
+      required: true
+
+  - type: input
+    id: venue-capacity
+    attributes:
+      label: Venue Capacity
+      description: The maximum capacity of the venue.
+      placeholder: Enter the venue's capacity
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Facilities"
+
+  - type: dropdown
+    id: presentation-device
+    attributes:
+      label: Presentation Device
+      description: What type of presentation device is available at the venue?
+      options:
+        - TV
+        - Projector
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: special-guest-details
+    attributes:
+      label: Building Security Requirements
+      description: Does the building have security requirements that require collecting full names of all guests?
+      options:
+        - label: Yes, we need to collect full names for security reasons.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: accept-coc
+    attributes:
+      label: Code of Conduct and Terms and Conditions
+      description: Please confirm that you accept the Code of Conduct and Terms and Conditions.
+      options:
+        - label: I accept the Code of Conduct and Terms and Conditions
+    validations:
+      required: true

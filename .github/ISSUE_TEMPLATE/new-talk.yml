@@ -1,0 +1,118 @@
+name: Talk Proposal
+description: Submit the topic you would like to present at a BarcelonaJS meetup
+projects: 
+  - BarcelonaJS/2
+labels:
+  - "Pending: ready for review"
+body:
+  - type: textarea
+    id: talk-description
+    attributes:
+      label: Talk Description
+      description: Describe what your talk will be about.
+      placeholder: Enter a detailed description of your talk
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Speaker Details"
+
+  - type: input
+    id: speaker-name
+    attributes:
+      label: Speaker Name
+      description: Your full name.
+      placeholder: Enter your name
+    validations:
+      required: true
+
+  - type: input
+    id: speaker-position
+    attributes:
+      label: Speaker Position
+      description: Your position or role.
+      placeholder: Enter your position
+    validations:
+      required: true
+
+  - type: input
+    id: speaker-linkedin
+    attributes:
+      label: Speaker LinkedIn
+      description: Your LinkedIn profile URL.
+      placeholder: Enter your LinkedIn URL
+    validations:
+      required: true
+
+  - type: input
+    id: speaker-twitter
+    attributes:
+      label: Speaker Twitter
+      description: Your Twitter handle.
+      placeholder: Enter your Twitter handle
+    validations:
+      required: true
+
+  - type: dropdown
+    id: previous-talks
+    attributes:
+      label: Number of Talks Given Before
+      description: How many talks have you given before?
+      options:
+        - 0
+        - 1-3
+        - 3-5
+        - 5+
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Speaker Company Details"
+
+  - type: input
+    id: speaker-company-name
+    attributes:
+      label: Speaker Company Name
+      description: The name of the company you are representing.
+      placeholder: Enter your company name
+    validations:
+      required: true
+
+  - type: input
+    id: speaker-company-website
+    attributes:
+      label: Speaker Company Website
+      description: The website of your company.
+      placeholder: Enter your company website
+    validations:
+      required: true
+
+  - type: input
+    id: speaker-company-linkedin
+    attributes:
+      label: Speaker Company LinkedIn
+      description: Your company's LinkedIn profile URL.
+      placeholder: Enter your company's LinkedIn URL
+    validations:
+      required: true
+
+  - type: input
+    id: speaker-company-twitter
+    attributes:
+      label: Speaker Company Twitter
+      description: Your company's Twitter handle.
+      placeholder: Enter your company's Twitter handle
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: accept-coc
+    attributes:
+      label: Code of Conduct and Terms and Conditions
+      description: Please confirm that you accept the Code of Conduct and Terms and Conditions of speaking at the event.
+      options:
+        - label: I accept the Code of Conduct and Terms and Conditions (Being Recorded)
+    validations:
+      required: true
