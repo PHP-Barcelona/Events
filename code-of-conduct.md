@@ -1,4 +1,4 @@
-# BarcelonaJS Code of conduct
+# PHP Barcelona Code of conduct
 
 ## Our Pledge
 
